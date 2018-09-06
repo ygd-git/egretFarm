@@ -9,7 +9,7 @@
 			</e:Group>
 			<e:Image id="up_house" source="house04" x="303" y="244" width="354" height="314"/>
 			<e:Group id="status_gp" height="140" width="420.67" x="-0.67" y="480" anchorOffsetX="0" anchorOffsetY="0"/>
-			<e:Group height="174" width="637" x="3" y="2">
+			<e:Group id="header" height="174" width="637" x="3" y="2">
 			<e:Group id="up_down_panel" height="106" width="447" x="180" y="110">
 				<e:Image source="icon_json.icon_02" x="8" y="-18" height="106" width="100%"/>
 				<e:Image id="paihang" source="icon_json.icon_05" x="142" y="3" width="83" height="74"/>
@@ -33,45 +33,45 @@
 			</e:Group>
 			</e:Group>
 			<e:Group id="dog_gp" width="84" height="95" x="332" y="525" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
-			<e:Group height="267" width="536.34" x="55.65" y="607.91" anchorOffsetX="0" anchorOffsetY="0" rotation="1.24">
-			<e:Image source="weilan02" width="495.85" height="240.08" rotation="2.72" x="315.91" y="-54.91" anchorOffsetX="183.1" anchorOffsetY="40.04" touchEnabled="false" pixelHitTest="true"/>
+			<e:Group id="gp_tudi" height="267" width="536.34" x="55.65" y="607.91" anchorOffsetX="0" anchorOffsetY="0" rotation="1.24">
+			<e:Image id="weilan_top" source="weilan02" width="495.85" height="240.08" rotation="2.72" x="315.91" y="-54.91" anchorOffsetX="183.1" anchorOffsetY="40.04" touchEnabled="false" pixelHitTest="true"/>
 			<e:Group id="crops_bottom" height="257.05" width="536.26" x="537" y="-1" rotation="359.85" anchorOffsetX="537.19" anchorOffsetY="0.32">
 				<e:Image source="tudi_json.tudi03" x="-51.77" y="59.63"/>
-				<e:Image source="tudi_json.tudi02" x="38.01" y="7.6"/>
-				<e:Image source="tudi_json.tudi01" x="123.82" y="-43.9"/>
-				<e:Image source="tudi_json.tudi03" x="46.05" y="111.29"/>
-				<e:Image source="tudi_json.tudi02" x="136.16" y="58.73"/>
-				<e:Image source="tudi_json.tudi01" x="220.83" y="9.56"/>
+				<e:Image x="38.01" y="7.6" source="tudi_json.tudi03"/>
+				<e:Image x="123.82" y="-43.9" source="tudi_json.tudi03"/>
+				<e:Image x="46.05" y="111.29" source="tudi_json.tudi03"/>
+				<e:Image x="136.16" y="58.73" source="tudi_json.tudi03"/>
+				<e:Image x="220.83" y="9.56" source="tudi_json.tudi03"/>
 				<e:Image source="tudi_json.tudi03" x="139.79" y="165.41"/>
-				<e:Image source="tudi_json.tudi02" x="231.08" y="112.84"/>
-				<e:Image source="tudi_json.tudi01" x="317.59" y="61.34"/>
-				<e:Image source="tudi_json.tudi03" x="238.4" y="218.24"/>
-				<e:Image source="tudi_json.tudi02" x="330.37" y="165.34"/>
-				<e:Image source="tudi_json.tudi01" x="415.55" y="112.84"/>
+				<e:Image x="231.08" y="112.84" source="tudi_json.tudi03"/>
+				<e:Image x="317.59" y="61.34" source="tudi_json.tudi03"/>
+				<e:Image x="238.4" y="218.24" source="tudi_json.tudi03"/>
+				<e:Image x="330.37" y="165.34" source="tudi_json.tudi03"/>
+				<e:Image x="415.55" y="112.84" source="tudi_json.tudi03"/>
 			</e:Group>
 			<e:Group id="crops_top" height="257.05" width="536.26" x="537" y="-1" rotation="359.85" anchorOffsetX="537.19" anchorOffsetY="0.32" touchEnabled="false">
 				<e:Image x="-51.77" y="59.63" source="tudi_json.tudi01" touchEnabled="false" visible="false"/>
-				<e:Image x="38.01" y="7.6" source="tudi_json.tudi01" visible="false" touchEnabled="false"/>
-				<e:Image source="tudi_json.tudi01" x="123.82" y="-43.9" visible="false" touchEnabled="false"/>
-				<e:Image x="46.05" y="111.29" source="tudi_json.tudi01" visible="false" touchEnabled="false"/>
-				<e:Image x="136.16" y="58.73" source="tudi_json.tudi01" visible="false" touchEnabled="false"/>
-				<e:Image source="tudi_json.tudi01" x="220.83" y="9.56" visible="false" touchEnabled="false"/>
-				<e:Image x="139.79" y="165.41" source="tudi_json.tudi01" visible="false" touchEnabled="false"/>
-				<e:Image x="231.08" y="112.84" source="tudi_json.tudi01" visible="false" touchEnabled="false"/>
-				<e:Image source="tudi_json.tudi01" x="317.59" y="61.34" visible="false" touchEnabled="false"/>
-				<e:Image x="238.4" y="218.24" source="tudi_json.tudi01" visible="false" touchEnabled="false"/>
-				<e:Image x="330.37" y="165.34" source="tudi_json.tudi01" visible="false" touchEnabled="false"/>
-				<e:Image source="tudi_json.tudi01" x="415.55" y="112.84" visible="false" touchEnabled="false"/>
+				<e:Image x="38.01" y="7.6" source="tudi_json.tudi01" touchEnabled="false" visible="false"/>
+				<e:Image source="tudi_json.tudi01" x="123.82" y="-43.9" touchEnabled="false" visible="false"/>
+				<e:Image x="46.05" y="111.29" source="tudi_json.tudi01" touchEnabled="false" visible="false"/>
+				<e:Image x="136.16" y="58.73" source="tudi_json.tudi01" touchEnabled="false" visible="false"/>
+				<e:Image source="tudi_json.tudi01" x="220.83" y="9.56" touchEnabled="false" visible="false"/>
+				<e:Image x="139.79" y="165.41" source="tudi_json.tudi01" touchEnabled="false" visible="false"/>
+				<e:Image x="231.08" y="112.84" source="tudi_json.tudi01" touchEnabled="false" visible="false"/>
+				<e:Image source="tudi_json.tudi01" x="317.59" y="61.34" touchEnabled="false" visible="false"/>
+				<e:Image x="238.4" y="218.24" source="tudi_json.tudi01" touchEnabled="false" visible="false"/>
+				<e:Image x="330.37" y="165.34" source="tudi_json.tudi01" touchEnabled="false" visible="false"/>
+				<e:Image source="tudi_json.tudi01" x="415.55" y="112.84" touchEnabled="false" visible="false"/>
 			</e:Group>
 			<e:Image id="crops_mask" source="touming1_png" x="-54.83" y="56.66" anchorOffsetX="0" width="177.99" anchorOffsetY="0" height="103.01" touchEnabled="false" visible="false"/>
 			<e:Group id="crops_tishi" width="177.52" height="114.41" x="205" y="-3.71" anchorOffsetX="88.37" anchorOffsetY="115.29" touchEnabled="false" visible="false">
 				<e:Image id="tishi_right" source="icon_json.icon_33" x="94.22" y="-3.04"/>
 				<e:Image id="tishi_left" source="icon_json.icon_32" x="-4.01" y="-2.16"/>
 			</e:Group>
-			<e:Image source="weilan05" x="93.84" y="202.76" width="635.83" height="242.33" rotation="2.81" anchorOffsetX="144.01" anchorOffsetY="76.82" touchEnabled="false" pixelHitTest="true"/>
+			<e:Image id="weilan_bottom" source="weilan05" x="93.84" y="202.76" width="635.83" height="242.33" rotation="2.81" anchorOffsetX="144.01" anchorOffsetY="76.82" touchEnabled="false" pixelHitTest="true"/>
 			<e:Image x="-51.77" y="58.3" source="touming1" visible="false"/>
 			</e:Group>
-			<e:Group id="guoyuan_gp" height="230" width="250" x="0" y="906">
+			<e:Group id="guoyuan_gp" height="230" width="250" x="0" y="906" visible="false">
 			<e:Image source="icon_json.icon_09" x="8" y="-3" width="67" height="71"/>
 			<e:Image source="icon_json.icon_11" x="89" y="8" width="67" height="71"/>
 			<e:Image source="icon_json.icon_10" x="152" y="68" width="67" height="71"/>
@@ -91,7 +91,7 @@
 				</e:Skin>
 			</e:skinName>
 			</e:Button>
-			<e:Button id="my_guoyuan" y="1001" x="0" width="138">
+			<e:Button id="my_guoyuan" y="1001" x="0" width="138" visible="false">
 			<e:skinName>
 				<e:Skin states="up,down,disabled">
 				<e:Image width="100%" height="100%" width.down="90%" height.down="90%" source="icon_json.icon_04" source.down="icon_json.icon_04" horizontalCenter="0" verticalCenter="0"/>
@@ -101,7 +101,7 @@
 			</e:Button>
 		</e:Group>
 		<e:Rect id="black_mask01" width="100%" y="0" height="100%" fillAlpha="0.5" x="0" visible="false" scaleX="1" scaleY="1"/>
-		<e:Group id="day_record" height="714" width="560" horizontalCenter="0" verticalCenter="0" visible="false" x="40" y="211" scaleX="1" scaleY="1">
+		<e:Group id="day_record" height="714" width="560" horizontalCenter="0" verticalCenter="0" x="40" y="211" scaleX="1" scaleY="1" visible="false">
 			<e:Image source="tibiao_01" x="0" y="0" width="100%" height="100%" scale9Grid="117,134,51,51"/>
 			<e:Image source="wenzi_12" x="7" y="-12" width="543" scale9Grid="168,24,42,20" height="84"/>
 			<e:Image source="icon_12" x="140" y="-22"/>

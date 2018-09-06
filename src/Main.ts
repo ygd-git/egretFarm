@@ -139,6 +139,6 @@ class Main extends eui.UILayer {
      */
     protected startCreateScene(): void {
         this.stage.removeChild(this.loadingView);                    
-        this.parent.addChild(Login.getInstance());
+        this.parent.addChild(Home.getInstance());
     }
 }
